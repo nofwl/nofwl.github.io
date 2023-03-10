@@ -11,15 +11,6 @@ const config: GatsbyConfig = {
   graphqlTypegen: true,
   plugins: [
     'gatsby-plugin-sass',
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [
-          'G-HHP8559J84',
-          'ca-pub-5066880741262012',
-        ],
-      }
-    },
   ],
 }
 
